@@ -1,0 +1,29 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	gap: 20px;
+}
+.container img {
+	height: 400px;
+	width: 400px;
+}
+.login-form-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 400px;
+}
+.login-form-container h2 {
+	margin-top: 0px;
+}
+
+#login-btn {
+	padding: 10px 5px;
+	background-color: skyblue;
+}
+
+#sign_in_error {
+	color:red;
+}
